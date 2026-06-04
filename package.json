@@ -1,0 +1,26 @@
+{
+  "name": "cimedalis-website",
+  "version": "1.0.0",
+  "description": "Cimedalis website with admin and client sides",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "client": "cd frontend && npm start",
+    "build": "cd frontend && npm run build"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.15.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
